@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4151B1E1BD6AE63002CAF64 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C4151B1D1BD6AE63002CAF64 /* Car.m */; settings = {ASSET_TAGS = (); }; };
 		C4C479C71BD2746700ED0762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C479C61BD2746700ED0762 /* main.m */; };
 		C4C479CA1BD2746700ED0762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C479C91BD2746700ED0762 /* AppDelegate.m */; };
 		C4C479CD1BD2746700ED0762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C479CC1BD2746700ED0762 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4151B1C1BD6AE63002CAF64 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		C4151B1D1BD6AE63002CAF64 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		C4C479C21BD2746700ED0762 /* PersonUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C479C61BD2746700ED0762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C479C81BD2746700ED0762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				C4C479C91BD2746700ED0762 /* AppDelegate.m */,
 				C4C479CB1BD2746700ED0762 /* ViewController.h */,
 				C4C479CC1BD2746700ED0762 /* ViewController.m */,
+				C4151B1C1BD6AE63002CAF64 /* Car.h */,
+				C4151B1D1BD6AE63002CAF64 /* Car.m */,
 				C4C479CE1BD2746700ED0762 /* Main.storyboard */,
 				C4C479D11BD2746700ED0762 /* Assets.xcassets */,
 				C4C479D31BD2746700ED0762 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				C4C479CD1BD2746700ED0762 /* ViewController.m in Sources */,
 				C4C479CA1BD2746700ED0762 /* AppDelegate.m in Sources */,
+				C4151B1E1BD6AE63002CAF64 /* Car.m in Sources */,
 				C4C479C71BD2746700ED0762 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				C4C479F11BD2746800ED0762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4C479F21BD2746800ED0762 /* Build configuration list for PBXNativeTarget "PersonUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				C4C479F41BD2746800ED0762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4C479F51BD2746800ED0762 /* Build configuration list for PBXNativeTarget "PersonUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				C4C479F71BD2746800ED0762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
